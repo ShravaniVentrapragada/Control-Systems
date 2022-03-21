@@ -12,5 +12,8 @@ Mathematical Modeling:
 Transfer Function: We have learnt the following functions in the above experiment. Transfer function to state-space conversion. [A,B,C,D] = tf2ss(NUM,DEN) calculates the state-space representation. similarly we used ss2tf. In the above experiment we learnt conversion of statespace models to transfer function and vice-versa and also ploted the step response on Simulink.
 
 
+Z transform: The z-transforms and inverse z-transform were made by using inbuilt functions. The circular marked region is the region of contour and since the poles and zeroes lie inside the circle the system is said to be stable. In the impulse response the impulse is absolutely summable, therefore the system is stable. Hence desired outputs were obtained
+
+
 Root Locus: In the above experiment we learnt how to use the function rlocus and rlocfind which are very useful in plotting a root locus. We also observed damping ratio by applying grid on the plot obtained. We also calculated the angle of departure for a specific point by using trignometry and inserting a line at that angle.
 
